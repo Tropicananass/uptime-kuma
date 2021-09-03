@@ -9,6 +9,7 @@ export default {
     acceptedStatusCodesDescription: "Select status codes which are considered as a successful response.",
     passwordNotMatchMsg: "The repeat password does not match.",
     notificationDescription: "Please assign a notification to monitor(s) to get it to work.",
+    enableNotification: "Enable a notification to forward events from this monitor",
     keywordDescription: "Search keyword in plain html or JSON response and it is case-sensitive",
     pauseDashboardHome: "Pause",
     deleteMonitorMsg: "Are you sure want to delete this monitor?",
