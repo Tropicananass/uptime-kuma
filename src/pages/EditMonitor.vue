@@ -171,7 +171,7 @@
                                 {{ $t("Not available, please setup.") }}
                             </p>
                             <p v-else>
-                                {{ $t("notificationDescription") }}
+                                {{ $t("enableNotification") }}
                             </p>
 
                             <div v-for="notification in $root.notificationList" :key="notification.id" class="form-check form-switch my-3">
