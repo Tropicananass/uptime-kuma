@@ -170,6 +170,9 @@
                             <p v-if="$root.notificationList.length === 0">
                                 {{ $t("Not available, please setup.") }}
                             </p>
+                            <p v-else>
+                                {{ $t("notificationDescription") }}
+                            </p>
 
                             <div v-for="notification in $root.notificationList" :key="notification.id" class="form-check form-switch my-3">
                                 <input :id=" 'notification' + notification.id" v-model="monitor.notificationIDList[notification.id]" class="form-check-input" type="checkbox">
