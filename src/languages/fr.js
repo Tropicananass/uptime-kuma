@@ -81,6 +81,7 @@ export default {
     "Enable Auth": "Activer l'authentification",
     Logout: "Se déconnecter",
     notificationDescription: "Une fois ajoutée, vous devez l'activer manuellement dans les paramètres de vos hôtes.",
+    enableNotification: "Activez une notification pour lui faire suivre les évènements de cette sonde",
     Leave: "Quitter",
     "I understand, please disable": "J'ai compris, désactivez-le",
     Confirm: "Confirmer",
